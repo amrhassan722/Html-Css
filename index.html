@@ -1,13 +1,228 @@
----
-layout: presentation
----
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>infinite Loop-live View</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--start-Header-->
+  <header>
+  <div class="container">
+      <a class="logo" href="#"><h2>Infinite Loop</h2>
+      </a>
+      <div class="links">
+        <i class="fas fa-bars toggle-menu"></i>
+    <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#What-We-Do">What We Do</a></li>
+      <li><a href="#Testimonials">Testimonials</a></li>
+      <li><a href="#Gallery">Gallery</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+  </div>
+  </div>
+</header>
+  <!--end-Header-->
+  <!-- start main -->
+<div class="main">
+  <div class="overlay"></div>
+    <div class="main-text">
+    <h2>Infinite Loop</h2>
+    <p>Bootstrap 4.0 parallax Theme <br>
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+      Free HTML Template by TOOPLATE</p>
+      </div>
+</div>
+<div class="x" id="parent">
+<a href="#parent">
+  <i class="fas fa-arrow-down"></i>
+</a>
+</div>
+  <!-- end-main -->
+    <!-- MAIN-2 -->
+  <div class="services" id="What-We-Do">
+    <div class="container">
+    <div class="main-heading ">
+      <h3>What We Do</h3>
+    <p>This is Infinite Loop, free Bootstrap 4.0 HTML template with a parallax effect.
+    This layout is what you can modify and use for your websites.
+   Please spread a word to your friends about our website. Thank you for supporting us.
+   If you have any question,
+     you can contact us or chat <br>with us on our <a style="color:var(--head-color)", href="#">Tooplate Facebook page.</a></p>
+    </div>
+    <div class="services-container">
+      <div class="srv-box">
+        <i class="far fa-3x fa-chart-bar text-center tm-icon"></i>
+        <div class="text">
+      <h3>Market Analysis</h3>
+    <p>Praesent sed pharetra lorem, blandit convallis mi.
+       Aenean ornare elit ac metus lacinia,
+       sed iaculis nibh semper. Pellentesque est urna.</p>
+     </div>
+     </div>
+     <div class="srv-box">
+       <i class="far fa-3x fa-comment-alt text-center tm-icon"></i>
+       <div class="text">
+         <h3>Fast Support</h3>
+       <p>Credit goes to  <a style="color:var(--head-color)" href="#">Pexels</a> website for all images used in this template.
+          Cras condimentum mi et sapien dignissim luctus.</p>
+        </div>
+    </div>
+      <div class="srv-box">
+        <i class="fas fa-3x fa-fingerprint text-center tm-icon"></i>
+        <div class="text">
+      <h3>Top Security</h3>
+      <p>You have <strong style="color:var(--head-color)">no</strong> authority to post this template as a ZIP file on your template collection websites.
+      You can <strong style="color:var(--head-color)">use</strong> this template for your commercial websites.</p>
+      <div class="button" id="Testimonials">
+        <a href="#Testimonials">
+          <i style="color:white;">Learn More</i>
+        </a>
+      </div>
+     </div>
+     </div>
+      <div class="srv-box c4">
+        <i class="fas fa-3x fa-users text-center tm-icon"></i>
+        <div class="text">
+          <h3>Social Work</h3>
+        <p>You can change <a style="color:var(--head-color)" href="#">Font Awesome icons</a> by either <strong style="color:var(--head-color)">fas or far</strong> in the HTML codes. For Examples:
+      <em>&lt;i class=&quot;fas fa-users&quot;&gt;&lt;i class=&quot;far fa-chart-bar&quot;&gt;</em>
+    </p>
+    <div class="button" id="Testimonials">
+      <a href="#Testimonials">
+      <i style="color:white;">Details</i>
+      </a>
+    </div>
+     </div>
+     </div>
+   </div>
+    </div>
+  <!-- MAIN-2 -->
+    <!-- main-3 -->
+    <div class="Testimonials" id="Testimonials">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="content-header">
+        <h3>Testimonials</h3>
+        <p>Nulla dictum sem non eros euismod, eu placerat tortor lobortis.
+          Suspendisse id velit eu libero <br> pellentesque interdum. Etiam quis congue eros.</p>
+      </div>
+      <div class="design">
+        <div class="img">
+          <img src="images/17.jpg" alt="">
+      <div class="content-text">
+        <p>This background image includes a semi-transparent overlay layer.
+           This section also has a parallax image <br>effect.</p>
+           <figcaption>Catherine Win (Designer)</figcaption>
+         </div>
+         </div>
+      <div class="img">
+        <img src="images/18.jpg" alt="">
+      <div class="content-text">
+        <p>Testimonial section comes with carousel items.
+           You can use Infinite Loop HTML CSS template for your<br> websites.</p>
+           <figcaption>Dual Rocker (CEO)</figcaption>
+       </div>
+      </div>
+      <div class="img">
+        <img src="images/19.jpg" alt="">
+      <div class="content-text">
+        <p>Nulla finibus ligula nec tortor convallis tincidunt.
+           Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+           <figcaption>Sandar Soft (Marketing)</figcaption>
+         </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- main-3 -->
+  <!-- Gallery -->
+  <div class="gallery" id="Gallery">
+    <div class="container">
+      <div class="main-container">
+      <h2>Gallery</h2>
+      <p>Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare elit ac metus lacinia, sed iaculis
+         nibh semper. Pellentesque est urna, lobortis eu arcu a, aliquet tristique urna.
+       </p>
+     </div>
+       <div class="imgs-container">
+         <div class="box">
+         <img src="images/1.jpg" alt="">
+       </div>
+         <div class="box">
+         <img src="images/8.jpg" style="width:660px;" alt="">
+       </div>
+         <div class="box">
+         <img src="images/3.jpg" alt="">
+       </div>
+         <div class="box">
+         <img src="images/4.jpg" alt="">
+       </div>
+         <div class="box">
+         <img src="images/5.jpg" alt="">
+       </div>
+     </div>
+    </div>
+  </div>
+  <!-- Gallery -->
+  <!-- CONTACT -->
+<div class="contact-us" id="Contact">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="first">
+      <h2>Contact Us</h2>
+      <p>Proin enim orci, tincidunt quis suscipit in, placerat nec est. Vestibulum posuere faucibus posuere. Quisque aliquam
+        velit eget leo blandit egestas. Nulla id posuere felis, quis tristique nulla.
+      </p>
+    </div>
+<div class="content">
+  <form action="">
+    <input class="main-input" type="text" name="name" placeholder="your Name">
+    <input class="main-input" type="Email" name="mail" placeholder ="your Email">
+    <textarea class="main-input" name="message" rows="10" cols="30" placeholder="your message"></textarea>
+    <button type="submit" name="Submit">Submit</button>
+  </form>
+  <div class="info">
+    <div class="icon">
+      <a href="https://www.tooplate.com/contact">
+      <span class="far fa-2x fa-comment mr-4"></span>
+      <span class="chat">Chat Online</span>
+      </a>
+    </div>
+    <div class="icon">
+      <a href="mailto:mail@company.com">
+      <span class="far fa-2x fa-envelope mr-4"></span>
+      <span class="chat">mail@company.com</span>
+      </a>
+    </div>
+    <div class="icon">
+      <a href="https://www.google.com/maps">
+      <span class="fas fa-2x fa-map-marker-alt mr-4"></span>
+      <span class="chat">Our Location</span>
+      </a>
+    </div>
+    <div class="icon">
+      <a href="tel:0100200340">
+      <span class="fas fa-2x fa-phone-square mr-4"></span>
+      <span class="chat">255-662-5566</span>
+      </a>
+    </div>
+  </div>
+</div>
+  </div>
+  <!-- footer -->
+  <p class="footer">
+    Copyright © 2020 Company Name .
+    <a href="https://www.tooplate.com">Designed by TOOPLATE</a>
+  </p>
+  <!-- footer -->
+</div>
+<!-- CONTACT -->
+  </body>
+</html>
